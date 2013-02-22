@@ -8,8 +8,8 @@ window.GamePad = function(talk){
   checkGamepad = function(){
     pad = navigator.webkitGetGamepads()[0];
     if (pad) {
-      button1 = navigator.webkitGetGamepads()[0].buttons[0];//a
-      button2 = navigator.webkitGetGamepads()[0].buttons[1];//b
+      button1 = pad.buttons[0];//a
+      button2 = pad.buttons[1];//b
     }else{
       button1 = 0;
       button2 = 0;
