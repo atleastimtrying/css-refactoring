@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>What is Refactoring?</title>
+  <title>CSS Refactoring</title>
    <link rel='stylesheet' href='css/style.css'> 
 </head>
 <body>
   <nav>
-    <a href='index.html' class='active'>Definition</a>
+    <a href='index.html'>Definition</a>
     <a href='why.html'>Why?</a>
     <a href='when.html'>When?</a>
     <a href='team.html'>Team Effort</a>
@@ -15,11 +15,13 @@
     <a href='semantics.html'>Semantics</a>
     <a href='classes.html'>When to use Classes</a>
     <a href='exceptional.html'>Exceptional Circumstances</a>
-    <a href='modules.html'>Modules</a>
+    <a href='modules.html' class='active'>Modules</a>
     <a href='compromises.html'>Compromises</a>
     <a href='sass.html'>SASS</a>
+    <a href='minifiers.html'>Minifiers</a>
     <a href='documentation.html'>Documentation</a>
     <a href='htmljs.html'>HTML/JS</a>
+    <a href='smells.html'>Smells</a>
     <a href='before.html'>Before</a>
     <a href='after.html'>After</a>
     <a href='conclusion.html'>Conclusion</a>
@@ -27,28 +29,12 @@
   <article>
     <section>
       <h1>Think in modules</h1> 
-      <p>
-        - apply classes to the logical container of an object.
-<pre>
-<div class='elephant'>
-<h2></h2>
-<p></div>
-<p></p>
-<p></p>
-<p></p>
-</div>
-<pre>
-is better than 
-<pre>
-<div class='elephant'>
-<h2 class='elephant-header'></h2>
-<p class='elephant-leg'></p>
-<p class='elephant-leg'></p>
-<p class='elephant-leg'></p>
-<p class='elephant-leg'></p>
-</div>
-</pre>
-      </p>
+      <ul>
+        <li>Establish single pieces of UI</li>
+        <li>Control these with a Class</li>
+        <li>Switch styles on sections easily</li>
+      </ul>
+      <script src="https://gist.github.com/atleastimtrying/5020210.js"></script>
     </section>
   </article>
   <script src="js/jquery.js"></script>
