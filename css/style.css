@@ -16,7 +16,7 @@ nav{
   position:fixed;
   top: 0;
   right:0;
-  width:128px;
+  width:160px;
   text-align:right;
   z-index:10;
   background: #ccc;
@@ -29,6 +29,7 @@ nav{
 nav a{
   display:block;
   padding:10px;
+  padding-right:20px;
   margin-bottom:10px;
   font-weight:bold;
   -webkit-transition:background 1s ease-out;
