@@ -22,6 +22,9 @@ nav{
   background: #ccc;
   padding-top:10px;
   border-bottom-left-radius: 2px;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  height:100%;
 }
 nav a{
   display:block;
@@ -30,9 +33,6 @@ nav a{
   font-weight:bold;
   -webkit-transition:background 1s ease-out;
   text-decoration:none;
-  overflow-x:hidden;
-  overflow-y:scroll;
-  height:100%;
 }
 nav a.active{
   background:white;
