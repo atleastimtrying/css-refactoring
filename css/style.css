@@ -30,6 +30,9 @@ nav a{
   font-weight:bold;
   -webkit-transition:background 1s ease-out;
   text-decoration:none;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  height:100%;
 }
 nav a.active{
   background:white;
